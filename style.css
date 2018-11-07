@@ -102,6 +102,11 @@ box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
   padding: 0px 20px;
 }
 
+.list-inline form {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
 .list-inline {
   padding-left: 0px;
 }
@@ -152,4 +157,10 @@ box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 #page-content {
   margin-left: 300px;
 }
+
+.form-example {
+  background-color: white;
+/*  color: red;
+*/}
+
 
