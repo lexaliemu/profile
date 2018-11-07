@@ -55,6 +55,11 @@ table{
   width: 300px;
 }
 
+.container{
+  width: 1000px;
+  margin: 0px auto;
+}
+
 /*Box Model configuration*/
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -74,10 +79,7 @@ table{
     width: 300px;
   }
 }
-.container{
-  width: 500px;
-  margin: 0px auto;
-}
+
 
 .card {
 background: white;
@@ -115,5 +117,39 @@ box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 .btn-red:hover{
   background-color: #C61414;
   color: white;
+}
+
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color:#788188;
+}
+
+#sidebar a:hover {
+  color: white;
+}
+
+#page-content {
+  margin-left: 300px;
 }
 

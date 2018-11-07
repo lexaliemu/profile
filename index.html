@@ -9,7 +9,28 @@
 </head>
 <body>
 
-<div class="container">
+<div id="sidebar">
+  <ul>
+    <li>
+      <a href="#summary">
+        <i class="fa fa-info-circle"></i>
+      </a>
+    </li>
+    <li>
+      <a href="#favorite-movies">
+        <i class="fas fa-video"></i>
+      </a>
+    </li>
+    <li>
+      <a href="#help">
+        <i class="fa fa-life-ring"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<div id="page-content" class="container">
+  <div id="summary">your summary</div>
     <div class="card text-center">
       <h1>Alexandre Mulliez</h1>
       <h2>Web Programmer</h2>
@@ -48,6 +69,7 @@
     </div>
 
     <div class="card text-center">
+      <div id="favorite-movies">your favorite movies</div>
       <h2>My Favorite movies</h2>
       <table>
         <tbody>
@@ -83,6 +105,7 @@
     </div>
 
     <div class="card text-center">
+      <div id="help">some help section</div>
       <h2>About this page</h2>
             This page has been coded during the <a href="https://lewagon.com/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
             <ul class="list-inline">
